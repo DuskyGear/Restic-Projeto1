@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalhando com TypeScript</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script type="module" src="disc/app.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div id="calculadora-container">
+                <h1>Calculadora de IMC</h1>
+                <form action="" id="formulario-imc">
+                    <div class="input-formulario">
+                        <div class="controladora-formulario">
+                            <label for="altura">Altura</label>
+                            <input type="text" name="altura" id="altura" placeholder="Exemplo 1,50">
+                        </div>
+                        <div class="controladora-formulario">
+                            <label for="peso">Peso</label>
+                            <input type="text" name="peso" id="peso" placeholder="Exemplo 60,8">
+                        </div>
+                    </div>
+                    <div class="controle-acoes">
+                        <button id="botao-calcular">Calcular</button>
+                        <button id="botao-limpar">Limpar</button>
+                    </div>
+                </form>
+            </div>
+            
+
+            <div id="resultado-container" class="hide" >
+                <p id="numero-imc">Seu IMC: <span ></span></p>
+                <p id="informacao-imc">Sitação atual: <span ></span></p>
+                <h3>Confira as classificações</h3>
+                <div id="tabela-imc">
+                    <div class="cabecalho-tabela">
+                        <h4>IMC</h4>
+                        <h4>Classificação</h4>
+                        <h4 id="cabecalho-tabela-obsesidade">Obsidade</h4>
+                    </div>
+                    
+                </div>
+                <button id="botao-voltar">Reiniciar</button>
+            </div>
+
+        </div>
+        <div id="container-imagem" class="hide" >
+            <div id="imagem-imc">
+                <img src="" alt="">
+            </div>
+            <p id="peso-minimo-recomendado-imc"> Peso mínimo recomendado</p>
+            <p id="peso-minimo"><span></span></p>
+            <p id="peso-maximo-recomendado-imc"> Peso máximo recomendado</p>
+            <p id="peso-maximo"><span></span></p>
+
+
+        </div>
+    </body>
+</html>
