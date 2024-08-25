@@ -1,59 +1,57 @@
-# Restic-Projeto1
+# **Restic-Projeto1: Calculadora de IMC**
 
-# Calculadora de IMC
+A Calculadora de IMC é um projeto criado para treinar e aplicar conhecimentos em **HTML**, **CSS** e **TypeScript**. O projeto também utiliza **Node.js** e a extensão **Live Server** do Visual Studio Code (VSCode) para facilitar o desenvolvimento e a visualização em tempo real.
 
-A Calculadora de IMC é um projeto desenvolvido para treinar e aplicar conhecimentos em HTML, CSS e TypeScript. O projeto utiliza Node.js e o Live Server como extensão do Visual Studio Code (VSCode) para facilitar o desenvolvimento e a visualização em tempo real.
+## **Tecnologias Utilizadas**
 
-## Tecnologias Usadas
-
-- **HTML**: Estrutura da página.
-- **CSS**: Estilização da página.
+- **HTML**: Estrutura básica da página.
+- **CSS**: Estilização e layout da interface.
 - **TypeScript**: Lógica do projeto e manipulação do DOM.
 - **Node.js**: Ambiente de execução para o TypeScript.
-- **Live Server**: Extensão do VSCode para servir o projeto localmente.
+- **Live Server**: Extensão do VSCode para servir o projeto localmente com recarregamento automático.
 
-## Instalação
+## **Instalação**
 
-Para configurar e rodar o projeto localmente, siga os passos abaixo:
+Siga os passos abaixo para configurar e rodar o projeto localmente:
 
-1. **Certifique-se de ter o VSCode e o Node.js instalados.**
-   - Baixe e instale o [VSCode](https://code.visualstudio.com/).
-   - Baixe e instale o [Node.js](https://nodejs.org/).
+1. **Pré-requisitos**:
+   - Instale o [Visual Studio Code (VSCode)](https://code.visualstudio.com/).
+   - Instale o [Node.js](https://nodejs.org/).
 
-2. **Clone o repositório.**
-  
+2. **Clone o repositório**:
+   ```bash
    git clone https://github.com/DuskyGear/Restic-Projeto1
-   
+Instale as dependências: No diretório do projeto, execute o comando abaixo para instalar todas as dependências necessárias:
 
 
 
-Rode esse comando para baixar as dependencias.
+
 npm install
 
+Compile o TypeScript: Para compilar o código TypeScript em JavaScript, execute:
 
-Rode esse comando para compilar o TypeScript
+
+
 npx tsc
-Inicie o Live Server no VSCode.
+
+
+Inicie o Live Server:
 
 Abra o projeto no VSCode.
-![image](https://github.com/user-attachments/assets/bb15f7a1-d3a7-4030-b2a3-8b877e9f5835)
-
-Clique com o botão "Go live"
+No canto inferior direito do VSCode, clique em "Go Live" para iniciar o servidor local.
+A aplicação estará disponível em http://localhost:5500 (ou na porta configurada pelo Live Server).
 Uso
-Após iniciar o Live Server, a aplicação estará disponível em http://localhost:5500 (ou outro porto configurado pelo Live Server).
-Utilize a calculadora para calcular o Índice de Massa Corporal (IMC) inserindo altura e peso.
-Contribuição
+Após iniciar o Live Server, acesse a aplicação através do navegador.
+Insira sua altura e peso para calcular o Índice de Massa Corporal (IMC).
+A interface exibirá o resultado imediatamente.
 
-Licença
-Este projeto está licenciado sob a MIT License.
+**Melhorias Futuras**
+Design: Implementar um design mais moderno e harmonioso, com uma paleta de cores mais agradável.
+Frameworks: Considerar a utilização de frameworks front-end (como React ou Angular) para melhorar a estrutura e manutenção do código.
+Precisão do IMC: Adicionar cálculos de IMC mais precisos, considerando fatores como idade e sexo.
+Validação de Entradas: Implementar validações para impedir a entrada de caracteres não numéricos e múltiplos pontos no campo de entrada de altura e peso.
 
-Autoria
+
+**Autor**
 Desenvolvido por Pedro Henrique Almeida Bomfim.
-
-
-# Melhorias Futuras
-Design: Implementar um design mais limpo com paletas de cores mais harmoniosas.
-Frameworks: Considerar a utilização de frameworks para melhorar a estrutura e a manutenção do código.
-Precisão do IMC: Adicionar cálculos mais precisos do IMC levando em conta a idade e o sexo.
-Entrada dos imputs: A calculadora ainda aceita a entrada de Letras e Pontos, não fiz o replace mas sairá uma nova versão adicionando essa funcionalidade.
 
